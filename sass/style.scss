@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+$blue: #379eb5;
+$yellow: #d2a627;
+$white: #fff;
+
+body {
+    background-color: $blue;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+#searchText {
+    margin: 0 auto;
+    background-color: $yellow;
+    width: 100%;
+    padding: 25px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.user {
+    width: 150px;
+    border: 2px solid $white;
+    background-color: $yellow;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    padding-bottom: 0px;
+    a {
+        text-decoration: none;
+        color: $white;
+        font-size: 16px;
+        &:hover {
+            color: $blue;
+        }
+    }
+    img {
+        margin-bottom: 0;
+        display: block;
+        width: 100%;
+    }
+}
